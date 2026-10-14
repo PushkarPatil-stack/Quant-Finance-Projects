@@ -26,8 +26,9 @@ def data_dir():
     ap.add_argument("--data", default=None)
     a, _ = ap.parse_known_args(sys.argv[1:])
     here = os.path.dirname(os.path.abspath(__file__))
-    for c in [a.data, "data", os.path.join("..", "data"), os.path.join(here, "data"), os.path.join(here, "..", "data")]:
-        if c and os.path.isdir(c):
+    for c in [a.data, "data", os.path.join("..", "data"), os.path.join(here, "data"), os.path.join(here, "..", "data"),
+                 os.path.join(here, ".."), os.path.join(here, "..", "..")]:
+        if c and os.path.isdir(os.path.join(c, "waterfall")):
             return c
     return "data"
 
