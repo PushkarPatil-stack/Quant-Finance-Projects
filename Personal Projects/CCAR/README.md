@@ -4,7 +4,7 @@ Projects BAC's credit losses, pre-provision net revenue (PPNR), allowance and CE
 supervisory Baseline and Severely Adverse scenarios, using public data only. The Fed's published BAC result is
 used as an outside benchmark and is never fitted to.
 
-[Live Dashboard Link]([url](https://bac-stress-test-pushkar.streamlit.app/)) 
+[Live Dashboard Link](https://bac-stress-test-pushkar.streamlit.app/)
 
 ## Result (severely adverse, 2026Q1-2028Q1)
 
