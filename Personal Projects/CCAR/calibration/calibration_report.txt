@@ -1,0 +1,19 @@
+BAC loan mix (share of total loans 1,249B, latest Y-9C): cards 8.5%, business 29.0%, cre 5.6%, mortgage 22.3%, other_consumer 7.2%; covered 73%, uncovered 27% gets no industry curve (k absorbs it).
+Fit sample 2014Q1 to 2025Q4 (46q). Mean implied 0.46% vs actual 0.42%.
+Legacy period 2011Q1 to 2013Q4 excluded from the fit: actual/implied = 1.69x (Countrywide-era book run-off).
+Scale factor k: fit 2014Q1-2019Q4 = 0.955; 2014Q1-2025 = 0.896
+  in-sample R2 -0.38, RMSE 0.07pp | out-of-sample 2020-2025: R2 0.72, RMSE 0.07pp, bias -0.05pp
+k under alternative mix assumptions (fit window): base 0.955; cards +20% 0.849; cards -20% 1.091; business +20% 0.919; CRE +50% 0.955; mortgage -20% 0.964
+
+BAC severely adverse, 9Q cumulative net charge-offs: 4.8% of loans (Fed published for BAC: 5.2%)
+
+                                       portfolio  model_9q_cum_loss_pct  fed_bac_pct  fed_32bank_pct                model_total_is  model_minus_fed_bac_pp
+                                     total loans                   4.77          5.2             6.9 BAC-scaled (k x industry mix)                   -0.43
+                                    credit cards                  17.41         16.2            17.1    industry curve, not scaled                    1.21
+                         commercial & industrial                   7.81          6.5             9.0    industry curve, not scaled                    1.31
+                          commercial real estate                   1.50          9.3             8.8    industry curve, not scaled                   -7.80
+residential mortgage (model) vs first-lien (Fed)                   4.11          1.3             1.5    industry curve, not scaled                    2.81
+                                  other consumer                   3.37          2.0             7.3    industry curve, not scaled                    1.37
+
+Balances held flat at latest loans; the industry mortgage curve covers first-lien + HELOC +
+multifamily (the Y-9C extract does not split them); the Fed rows are a benchmark only.

@@ -1,0 +1,80 @@
+NII: simplified banking-book model fitted to BAC Tables 44/45 (static and dynamic deposits), FR Y-9C balances
+Check - 4Q25 NII from Y-9C 15.70B; rebuilt from categories 15.70B (income 34.2B, expense 18.5B)
+
+BALANCES AND 4Q25 RATES (average of Q3 and Q4 balances):
+                                    category side  avg_balance_b  q4_interest_b  annualized_rate_pct
+          Cash and interest-bearing balances    A         219.30           2.22                 4.06
+                                Reverse repo    A         321.19           3.76                 4.69
+                              Trading assets    A         407.91           3.14                 3.08
+                 Debt securities (AFS + HTM)    A         915.61           6.61                 2.89
+                            Loans and leases    A        1241.31          17.70                 5.71
+                   Interest-bearing deposits    L        1481.99           8.27                 2.23
+                                        Repo    L         343.65           4.20                 4.89
+Other borrowed money and trading liabilities    L         576.41           5.71                 3.96
+                           Subordinated debt    L          27.67           0.33                 4.83
+
+FIT TO DISCLOSED SENSITIVITIES, $B 12-month NII:
+year   basis                 shock  disclosed_b  model_b  diff_b
+2023  static         +100 parallel          3.5     3.58    0.08
+2023  static         -100 parallel         -3.1    -3.73   -0.63
+2023  static Flattener: short +100          3.2     3.29    0.09
+2023  static  Flattener: long -100         -0.3    -0.29    0.01
+2023  static Steepener: short -100         -2.8    -3.44   -0.64
+2023  static  Steepener: long +100          0.3     0.29   -0.01
+2024  static         +100 parallel          3.1     3.03   -0.07
+2024  static         -100 parallel         -3.3    -3.19    0.11
+2024  static         +200 parallel          6.2     6.06   -0.14
+2024  static         -200 parallel         -6.9    -6.47    0.43
+2024  static Flattener: short +100          2.8     2.74   -0.06
+2024  static  Flattener: long -100         -0.4    -0.29    0.11
+2024  static Steepener: short -100         -2.9    -2.90   -0.00
+2024  static  Steepener: long +100          0.3     0.29   -0.01
+2024 dynamic         +100 parallel          1.1     1.06   -0.04
+2024 dynamic         -100 parallel         -2.3    -2.23    0.07
+2024 dynamic         +200 parallel          2.0     1.53   -0.47
+2024 dynamic         -200 parallel         -5.4    -5.25    0.15
+2024 dynamic Flattener: short +100          1.1     0.78   -0.32
+2024 dynamic  Flattener: long -100         -0.1    -0.29   -0.19
+2024 dynamic Steepener: short -100         -2.1    -1.94    0.16
+2024 dynamic  Steepener: long +100          0.1     0.29    0.19
+2025 dynamic         +100 parallel          0.7     0.93    0.23
+2025 dynamic         -100 parallel         -2.0    -2.12   -0.12
+2025 dynamic         +200 parallel          0.8     1.26    0.46
+2025 dynamic         -200 parallel         -4.9    -5.05   -0.15
+2025 dynamic Flattener: short +100          0.5     0.62    0.12
+2025 dynamic  Flattener: long -100         -0.3    -0.31   -0.01
+2025 dynamic Steepener: short -100         -1.7    -1.81   -0.11
+2025 dynamic  Steepener: long +100          0.3     0.31    0.01
+RMSE static 0.28B, dynamic 0.22B. Calibrated: deposit beta 0.41, low-rate tier 4%, long-end scale 0.16, floating long debt 100%; deposit migration -2.00B per +100bp.
+
+OUT-OF-SAMPLE: parameters fitted WITHOUT 2025 predict the disclosed 2025 dynamic sensitivities with RMSE 0.41B:
+                shock  disclosed_b  predicted_b  diff_b
+        +100 parallel          0.7         1.13    0.43
+        -100 parallel         -2.0        -2.25   -0.25
+        +200 parallel          0.8         1.74    0.94
+        -200 parallel         -4.9        -5.20   -0.30
+Flattener: short +100          0.5         0.79    0.29
+ Flattener: long -100         -0.3        -0.34   -0.04
+Steepener: short -100         -1.7        -1.91   -0.21
+ Steepener: long +100          0.3         0.34    0.04
+
+RESULTS (2025 balance sheet, 12 months, instantaneous parallel shift):
+                         shock  static_deposits_b  dynamic_deposits_b  dynamic_pct_of_run_rate
+               Parallel +200bp               5.86                1.26                     2.01
+               Parallel +100bp               2.93                0.93                     1.49
+               Parallel -100bp              -3.10               -2.12                    -3.38
+               Parallel -200bp              -6.29               -5.05                    -8.04
+Parallel -300bp (extrapolated)              -9.48               -8.05                   -12.82
+
+ROBUSTNESS: refit (all four datasets) after changing an assumed input:
+                  assumption_changed  beta  floor_share  long_scale  ltd_float  fit_rmse_b  dynamic_minus100_b  dynamic_plus100_b
+                            base fit  0.41         0.04        0.16       1.00        0.25               -2.12               0.93
+           floating loan share -10pp  0.34         0.06        0.15       1.00        0.23               -2.07               0.89
+           floating loan share +10pp  0.50         0.03        0.17       1.00        0.27               -2.13               0.94
+                  fixed-loan life 3y  0.41         0.04        0.14       1.00        0.25               -2.12               0.93
+                  fixed-loan life 8y  0.41         0.04        0.17       1.00        0.25               -2.12               0.93
+                    low-tier cost 0%  0.41         0.02        0.16       1.00        0.25               -2.12               0.94
+                   MBS prepayment 5%  0.41         0.04        0.17       1.00        0.25               -2.12               0.94
+long debt 12% floating (contractual)  0.56         0.03        0.17       0.12        0.33               -2.18               0.99
+
+Parameters and sources: nii_eve_assumptions.csv. Everything marked ASSUMED is a modelling choice, not BAC data.

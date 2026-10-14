@@ -1,0 +1,7 @@
+scenario,delta_eve_after_hedges_b,delta_eve_gross_b,after_hedges_pct_tier1,gross_pct_tier1
+Parallel up,22.767,22.644,10.012,9.959
+Parallel down,-31.998,-35.787,-14.073,-15.739
+Steepener,-7.552,-5.093,-3.321,-2.24
+Flattener,9.581,5.77,4.214,2.538
+Short rate up,14.2,10.12,6.245,4.451
+Short rate down,-14.791,-10.594,-6.505,-4.659

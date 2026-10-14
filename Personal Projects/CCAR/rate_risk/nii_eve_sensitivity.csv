@@ -1,0 +1,9 @@
+assumption_changed,beta,floor_share,long_scale,ltd_float,fit_rmse_b,dynamic_minus100_b,dynamic_plus100_b
+base fit,0.413,0.043,0.16,1.0,0.248,-2.12,0.934
+floating loan share -10pp,0.337,0.063,0.152,1.0,0.232,-2.075,0.888
+floating loan share +10pp,0.497,0.032,0.174,1.0,0.267,-2.131,0.945
+fixed-loan life 3y,0.413,0.043,0.14,1.0,0.248,-2.12,0.934
+fixed-loan life 8y,0.413,0.043,0.174,1.0,0.248,-2.12,0.934
+low-tier cost 0%,0.411,0.021,0.162,1.0,0.253,-2.122,0.936
+MBS prepayment 5%,0.413,0.043,0.172,1.0,0.249,-2.123,0.937
+long debt 12% floating (contractual),0.561,0.028,0.17,0.12,0.334,-2.177,0.99

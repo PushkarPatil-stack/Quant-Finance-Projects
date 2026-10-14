@@ -1,0 +1,13 @@
+case,worst_delta_eve_b,worst_scenario,worst_pct_tier1,parallel_up_b,parallel_down_b
+base (after documented fair-value hedges),-32.0,Parallel down,-14.07,22.77,-32.0
+NMD core share and maturity at 75% of Basel caps,-26.96,Steepener,-11.86,-20.73,18.77
+NMD core share and maturity at 50% of caps,-53.12,Parallel up,-23.36,-53.12,55.02
+retail share of domestic deposits 45%,-23.24,Parallel down,-10.22,15.2,-23.24
+retail share of domestic deposits 75%,-40.76,Parallel down,-17.93,30.34,-40.76
+mortgage CPR 3%,-22.7,Parallel down,-9.98,18.06,-22.7
+mortgage CPR 10%,-40.12,Parallel down,-17.64,27.57,-40.12
+no documented hedges (gross cash instruments),-35.79,Parallel down,-15.74,22.64,-35.79
+hedged share of AFS 30% (vs 61%),-21.4,Parallel down,-9.41,12.79,-21.4
+hedged share of AFS 90%,-42.04,Parallel down,-18.49,32.22,-42.04
+long-term debt effective floating 65% (vs 78%),-36.99,Parallel down,-16.27,26.72,-36.99
+long-term debt effective floating 95%,-25.85,Parallel down,-11.37,17.9,-25.85

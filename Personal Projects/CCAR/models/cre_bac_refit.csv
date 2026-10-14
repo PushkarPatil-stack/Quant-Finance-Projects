@@ -1,0 +1,5 @@
+spec,n,R2,rho,backtest_pred_9q,backtest_actual_9q,severe_9q_cum_pct,severe_peak_pct
+ur + cre4 (same as industry model),34,0.879,0.52,2.5,1.86,3.78,3.99
+drawdown only,34,0.822,0.74,1.1,1.86,2.3,3.43
+ur + drawdown,34,0.858,0.4,1.71,1.86,2.61,2.32
+cre4 + drawdown,34,0.837,0.74,1.94,1.86,3.33,3.68

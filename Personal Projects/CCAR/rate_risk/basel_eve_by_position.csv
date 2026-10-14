@@ -1,0 +1,157 @@
+scenario,position,side,balance_b,delta_value_b
+Parallel up,Cash and interest-bearing balances,A,210.072,-0.175
+Parallel up,Reverse repo,A,316.578,-0.264
+Parallel up,Loans: floating,A,827.379,-0.69
+Parallel up,Loans: residential mortgages (fixed),A,237.886,-30.839
+Parallel up,Loans: other fixed,A,183.435,-7.262
+Parallel up,Securities <=1y,A,101.171,-0.987
+Parallel up,Securities 1-5y,A,302.118,-15.806
+Parallel up,Securities >5y (MBS-like),A,506.192,-59.137
+Parallel up,NMD core: Retail transactional,L,279.633,26.118
+Parallel up,NMD non-core (overnight): Retail transactional,L,31.07,0.026
+Parallel up,NMD core: Retail non-transactional,L,571.693,45.43
+Parallel up,NMD non-core (overnight): Retail non-transactional,L,245.011,0.204
+Parallel up,NMD core: Wholesale (NIB),L,103.568,7.852
+Parallel up,NMD non-core (overnight): Wholesale (NIB),L,103.568,0.086
+Parallel up,NMD core: Wholesale (interest-bearing + foreign),L,342.094,24.507
+Parallel up,NMD non-core (overnight): Wholesale (interest-bearing + foreign),L,342.094,0.285
+Parallel up,Repo,L,344.716,0.287
+Parallel up,Other borrowed money <=1y,L,154.751,1.517
+Parallel up,Long-term debt: floating / swapped,L,196.446,0.654
+Parallel up,"Long-term debt: fixed, maturing 0-1y",L,6.106,0.06
+Parallel up,"Long-term debt: fixed, maturing 1-2y",L,6.659,0.196
+Parallel up,"Long-term debt: fixed, maturing 2-3y",L,7.049,0.344
+Parallel up,"Long-term debt: fixed, maturing 3-4y",L,5.819,0.393
+Parallel up,"Long-term debt: fixed, maturing 4-5y",L,2.049,0.176
+Parallel up,"Long-term debt: fixed, maturing 5-20y",L,26.31,5.352
+Parallel up,Subordinated debt,L,27.581,4.749
+Parallel down,Cash and interest-bearing balances,A,210.072,0.175
+Parallel down,Reverse repo,A,316.578,0.264
+Parallel down,Loans: floating,A,827.379,0.69
+Parallel down,Loans: residential mortgages (fixed),A,237.886,33.733
+Parallel down,Loans: other fixed,A,183.435,7.229
+Parallel down,Securities <=1y,A,101.171,1.0
+Parallel down,Securities 1-5y,A,302.118,16.899
+Parallel down,Securities >5y (MBS-like),A,506.192,62.75
+Parallel down,NMD core: Retail transactional,L,279.633,-29.825
+Parallel down,NMD non-core (overnight): Retail transactional,L,31.07,-0.026
+Parallel down,NMD core: Retail non-transactional,L,571.693,-50.994
+Parallel down,NMD non-core (overnight): Retail non-transactional,L,245.011,-0.204
+Parallel down,NMD core: Wholesale (NIB),L,103.568,-8.732
+Parallel down,NMD non-core (overnight): Wholesale (NIB),L,103.568,-0.086
+Parallel down,NMD core: Wholesale (interest-bearing + foreign),L,342.094,-27.169
+Parallel down,NMD non-core (overnight): Wholesale (interest-bearing + foreign),L,342.094,-0.285
+Parallel down,Repo,L,344.716,-0.288
+Parallel down,Other borrowed money <=1y,L,154.751,-1.537
+Parallel down,Long-term debt: floating / swapped,L,196.446,-0.656
+Parallel down,"Long-term debt: fixed, maturing 0-1y",L,6.106,-0.061
+Parallel down,"Long-term debt: fixed, maturing 1-2y",L,6.659,-0.202
+Parallel down,"Long-term debt: fixed, maturing 2-3y",L,7.049,-0.361
+Parallel down,"Long-term debt: fixed, maturing 3-4y",L,5.819,-0.422
+Parallel down,"Long-term debt: fixed, maturing 4-5y",L,2.049,-0.193
+Parallel down,"Long-term debt: fixed, maturing 5-20y",L,26.31,-6.947
+Parallel down,Subordinated debt,L,27.581,-5.837
+Steepener,Cash and interest-bearing balances,A,210.072,0.168
+Steepener,Reverse repo,A,316.578,0.253
+Steepener,Loans: floating,A,827.379,0.661
+Steepener,Loans: residential mortgages (fixed),A,237.886,-15.309
+Steepener,Loans: other fixed,A,183.435,0.889
+Steepener,Securities <=1y,A,101.171,0.727
+Steepener,Securities 1-5y,A,302.118,1.094
+Steepener,Securities >5y (MBS-like),A,506.192,-30.04
+Steepener,NMD core: Retail transactional,L,279.633,7.943
+Steepener,NMD non-core (overnight): Retail transactional,L,31.07,-0.025
+Steepener,NMD core: Retail non-transactional,L,571.693,10.236
+Steepener,NMD non-core (overnight): Retail non-transactional,L,245.011,-0.196
+Steepener,NMD core: Wholesale (NIB),L,103.568,1.468
+Steepener,NMD non-core (overnight): Wholesale (NIB),L,103.568,-0.083
+Steepener,NMD core: Wholesale (interest-bearing + foreign),L,342.094,4.036
+Steepener,NMD non-core (overnight): Wholesale (interest-bearing + foreign),L,342.094,-0.273
+Steepener,Repo,L,344.716,-0.275
+Steepener,Other borrowed money <=1y,L,154.751,-1.118
+Steepener,Long-term debt: floating / swapped,L,196.446,-0.595
+Steepener,"Long-term debt: fixed, maturing 0-1y",L,6.106,-0.044
+Steepener,"Long-term debt: fixed, maturing 1-2y",L,6.659,-0.09
+Steepener,"Long-term debt: fixed, maturing 2-3y",L,7.049,-0.074
+Steepener,"Long-term debt: fixed, maturing 3-4y",L,5.819,-0.005
+Steepener,"Long-term debt: fixed, maturing 4-5y",L,2.049,0.026
+Steepener,"Long-term debt: fixed, maturing 5-20y",L,26.31,3.193
+Steepener,Subordinated debt,L,27.581,2.564
+Flattener,Cash and interest-bearing balances,A,210.072,-0.207
+Flattener,Reverse repo,A,316.578,-0.312
+Flattener,Loans: floating,A,827.379,-0.816
+Flattener,Loans: residential mortgages (fixed),A,237.886,7.145
+Flattener,Loans: other fixed,A,183.435,-2.494
+Flattener,Securities <=1y,A,101.171,-0.942
+Flattener,Securities 1-5y,A,302.118,-4.711
+Flattener,Securities >5y (MBS-like),A,506.192,14.438
+Flattener,NMD core: Retail transactional,L,279.633,-2.097
+Flattener,NMD non-core (overnight): Retail transactional,L,31.07,0.031
+Flattener,NMD core: Retail non-transactional,L,571.693,0.08
+Flattener,NMD non-core (overnight): Retail non-transactional,L,245.011,0.242
+Flattener,NMD core: Wholesale (NIB),L,103.568,0.331
+Flattener,NMD non-core (overnight): Wholesale (NIB),L,103.568,0.102
+Flattener,NMD core: Wholesale (interest-bearing + foreign),L,342.094,1.576
+Flattener,NMD non-core (overnight): Wholesale (interest-bearing + foreign),L,342.094,0.337
+Flattener,Repo,L,344.716,0.34
+Flattener,Other borrowed money <=1y,L,154.751,1.448
+Flattener,Long-term debt: floating / swapped,L,196.446,0.74
+Flattener,"Long-term debt: fixed, maturing 0-1y",L,6.106,0.057
+Flattener,"Long-term debt: fixed, maturing 1-2y",L,6.659,0.133
+Flattener,"Long-term debt: fixed, maturing 2-3y",L,7.049,0.151
+Flattener,"Long-term debt: fixed, maturing 3-4y",L,5.819,0.096
+Flattener,"Long-term debt: fixed, maturing 4-5y",L,2.049,0.016
+Flattener,"Long-term debt: fixed, maturing 5-20y",L,26.31,-2.223
+Flattener,Subordinated debt,L,27.581,-1.603
+Short rate up,Cash and interest-bearing balances,A,210.072,-0.26
+Short rate up,Reverse repo,A,316.578,-0.392
+Short rate up,Loans: floating,A,827.379,-1.024
+Short rate up,Loans: residential mortgages (fixed),A,237.886,-7.109
+Short rate up,Loans: other fixed,A,183.435,-5.516
+Short rate up,Securities <=1y,A,101.171,-1.258
+Short rate up,Securities 1-5y,A,302.118,-10.789
+Short rate up,Securities >5y (MBS-like),A,506.192,-17.966
+Short rate up,NMD core: Retail transactional,L,279.633,9.42
+Short rate up,NMD non-core (overnight): Retail transactional,L,31.07,0.038
+Short rate up,NMD core: Retail non-transactional,L,571.693,19.492
+Short rate up,NMD non-core (overnight): Retail non-transactional,L,245.011,0.303
+Short rate up,NMD core: Wholesale (NIB),L,103.568,3.63
+Short rate up,NMD non-core (overnight): Wholesale (NIB),L,103.568,0.128
+Short rate up,NMD core: Wholesale (interest-bearing + foreign),L,342.094,11.801
+Short rate up,NMD non-core (overnight): Wholesale (interest-bearing + foreign),L,342.094,0.423
+Short rate up,Repo,L,344.716,0.427
+Short rate up,Other borrowed money <=1y,L,154.751,1.933
+Short rate up,Long-term debt: floating / swapped,L,196.446,0.94
+Short rate up,"Long-term debt: fixed, maturing 0-1y",L,6.106,0.076
+Short rate up,"Long-term debt: fixed, maturing 1-2y",L,6.659,0.201
+Short rate up,"Long-term debt: fixed, maturing 2-3y",L,7.049,0.277
+Short rate up,"Long-term debt: fixed, maturing 3-4y",L,5.819,0.249
+Short rate up,"Long-term debt: fixed, maturing 4-5y",L,2.049,0.088
+Short rate up,"Long-term debt: fixed, maturing 5-20y",L,26.31,0.567
+Short rate up,Subordinated debt,L,27.581,0.737
+Short rate down,Cash and interest-bearing balances,A,210.072,0.26
+Short rate down,Reverse repo,A,316.578,0.392
+Short rate down,Loans: floating,A,827.379,1.025
+Short rate down,Loans: residential mortgages (fixed),A,237.886,7.565
+Short rate down,Loans: other fixed,A,183.435,5.515
+Short rate down,Securities <=1y,A,101.171,1.278
+Short rate down,Securities 1-5y,A,302.118,11.23
+Short rate down,Securities >5y (MBS-like),A,506.192,18.546
+Short rate down,NMD core: Retail transactional,L,279.633,-9.774
+Short rate down,NMD non-core (overnight): Retail transactional,L,31.07,-0.038
+Short rate down,NMD core: Retail non-transactional,L,571.693,-20.241
+Short rate down,NMD non-core (overnight): Retail non-transactional,L,245.011,-0.304
+Short rate down,NMD core: Wholesale (NIB),L,103.568,-3.773
+Short rate down,NMD non-core (overnight): Wholesale (NIB),L,103.568,-0.128
+Short rate down,NMD core: Wholesale (interest-bearing + foreign),L,342.094,-12.263
+Short rate down,NMD non-core (overnight): Wholesale (interest-bearing + foreign),L,342.094,-0.424
+Short rate down,Repo,L,344.716,-0.427
+Short rate down,Other borrowed money <=1y,L,154.751,-1.965
+Short rate down,Long-term debt: floating / swapped,L,196.446,-0.945
+Short rate down,"Long-term debt: fixed, maturing 0-1y",L,6.106,-0.078
+Short rate down,"Long-term debt: fixed, maturing 1-2y",L,6.659,-0.207
+Short rate down,"Long-term debt: fixed, maturing 2-3y",L,7.049,-0.289
+Short rate down,"Long-term debt: fixed, maturing 3-4y",L,5.819,-0.26
+Short rate down,"Long-term debt: fixed, maturing 4-5y",L,2.049,-0.092
+Short rate down,"Long-term debt: fixed, maturing 5-20y",L,26.31,-0.584
+Short rate down,Subordinated debt,L,27.581,-0.76

@@ -1,0 +1,9 @@
+CRE diagnostic (nine-quarter cumulative net charge-offs, % of loans)
+           spec    R2  backtest_pred_9q  backtest_actual_9q  shortfall_x  severe_9q  severe_9q_scaled_by_backtest  fed_bac_9q
+base: ur + cre4 0.900              1.98                4.41         2.23       1.50                          3.34         9.3
+  drawdown only 0.895              1.92                4.41         2.30       1.94                          4.45         9.3
+  ur + drawdown 0.898              1.36                4.41         3.25       0.99                          3.23         9.3
+cre4 + drawdown 0.901              2.73                4.41         1.62       2.70                          4.36         9.3
+
+Back-test: start 2007Q4 (rate 0.36%), actual 2008Q1-2010Q1 macro. Realised industry loss 4.41%. Scenario starts from 0.21%. Fed severe for BAC: 9.3%.
+Reading: the model under-predicts the episode it was fitted on, so part of the gap to the Fed is model dynamics (slow log-linear adjustment from a low starting rate). Correcting for it still leaves the result below the Fed's, so the rest is the Fed's loan-level CRE assumptions, which are not published and are not tested here.

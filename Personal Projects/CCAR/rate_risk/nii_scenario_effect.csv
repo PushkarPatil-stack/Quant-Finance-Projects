@@ -1,0 +1,40 @@
+scenario,quarter,short_rate_gap_vs_baseline_bp,nii_effect_vs_baseline_b
+Constructed Adverse,2026Q1,-55.0,-0.216
+Constructed Adverse,2026Q2,-165.0,-1.003
+Constructed Adverse,2026Q3,-155.0,-0.929
+Constructed Adverse,2026Q4,-150.0,-0.892
+Constructed Adverse,2027Q1,-150.0,-0.892
+Constructed Adverse,2027Q2,-150.0,-0.892
+Constructed Adverse,2027Q3,-150.0,-0.892
+Constructed Adverse,2027Q4,-150.0,-0.892
+Constructed Adverse,2028Q1,-150.0,-0.892
+Constructed Adverse,2028Q2,-145.0,-0.856
+Constructed Adverse,2028Q3,-145.0,-0.856
+Constructed Adverse,2028Q4,-145.0,-0.856
+Constructed Adverse,2029Q1,-145.0,-0.856
+Supervisory Baseline,2026Q1,0.0,0.0
+Supervisory Baseline,2026Q2,0.0,0.0
+Supervisory Baseline,2026Q3,0.0,0.0
+Supervisory Baseline,2026Q4,0.0,0.0
+Supervisory Baseline,2027Q1,0.0,0.0
+Supervisory Baseline,2027Q2,0.0,0.0
+Supervisory Baseline,2027Q3,0.0,0.0
+Supervisory Baseline,2027Q4,0.0,0.0
+Supervisory Baseline,2028Q1,0.0,0.0
+Supervisory Baseline,2028Q2,0.0,0.0
+Supervisory Baseline,2028Q3,0.0,0.0
+Supervisory Baseline,2028Q4,0.0,0.0
+Supervisory Baseline,2029Q1,0.0,0.0
+Supervisory Severely Adverse,2026Q1,-110.0,-0.602
+Supervisory Severely Adverse,2026Q2,-330.0,-2.241
+Supervisory Severely Adverse,2026Q3,-310.0,-2.089
+Supervisory Severely Adverse,2026Q4,-300.0,-2.014
+Supervisory Severely Adverse,2027Q1,-300.0,-2.014
+Supervisory Severely Adverse,2027Q2,-300.0,-2.014
+Supervisory Severely Adverse,2027Q3,-300.0,-2.014
+Supervisory Severely Adverse,2027Q4,-300.0,-2.014
+Supervisory Severely Adverse,2028Q1,-300.0,-2.014
+Supervisory Severely Adverse,2028Q2,-290.0,-1.938
+Supervisory Severely Adverse,2028Q3,-290.0,-1.938
+Supervisory Severely Adverse,2028Q4,-290.0,-1.938
+Supervisory Severely Adverse,2029Q1,-290.0,-1.938

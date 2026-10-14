@@ -1,0 +1,9 @@
+parameter,value,source
+nii_effect (from file),,"build_nii_eve_model.py: NII model fitted to BAC 10-K Tables 44/45; quarterly effect vs Baseline from the 3-month-rate gap, dynamic deposits"
+fee_share_equity_linked,0.33207547169811324,BAC 4Q25 deck: asset management 15.3 + brokerage 2.3 = $17.6B of $53.0B FY2025 noninterest income
+fee_share_investment_banking,0.12452830188679245,BAC 4Q25 deck: investment banking fees $6.6B of $53.0B
+fee_share_sales_trading,0.3943396226415094,BAC 4Q25 deck: sales and trading $20.9B of $53.0B
+equity_linked_elasticity,0.6,"SOURCED RANGE 0.5-0.7: BAC 10-K GWIM 2007-2009. Columbia fees $1,435M (2007) -> $1,090M (2009) = -24% vs Fed equity index -34% (0.7); U.S. Trust 2008->2009 -10% vs -16% (0.6); GWIM AUM -19% in 2008 vs equity -39% year-end (0.5). Central value 0.6"
+investment_banking_haircut_at_peak_stress,0.4,"SOURCED RANGE 0.24-0.54 (central 0.40): BAC 10-K/earnings, total Corporation IB fees 4Q22 $1,071M vs 4Q21 $2,351M = -54% (boom base) or vs 2019 run-rate $5,642M/4 = -24%. Falls only in 2022; 2008 +7% ($2,537M->$2,708M) and 2020 +27% ($5,642M->$7,180M). Scaled by equity gap"
+sales_trading_haircut_at_peak_stress,0.0,"SET TO ZERO: no observed fall in client sales and trading revenue in stress (4Q22 $3,525M vs 4Q21 $2,936M; 2009 up). Losses seen in 2007-08 (-$2.1B, -$5.8B) were mark-to-market on legacy structured products, which the Fed treats as trading and counterparty loss, not PPNR. See sensitivity"
+oprisk_pct_of_assets_9q,0.008803894297635605,"Fed 2026 DFAST results: aggregate operational-risk losses $211B; aggregate PPNR $719B = 3% of average assets -> 0.88% of assets over 9 quarters, applied pro rata to BAC assets"

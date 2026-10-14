@@ -1,0 +1,196 @@
+scenario,segment,quarter,nco_rate_ann,dq_rate,lgd_implied
+Constructed Adverse,cards,2026Q1,0.04354,0.02854,1.53842
+Constructed Adverse,cards,2026Q2,0.04789,0.02861,1.67765
+Constructed Adverse,cards,2026Q3,0.05253,0.02859,1.83603
+Constructed Adverse,cards,2026Q4,0.05749,0.02839,2.01118
+Constructed Adverse,cards,2027Q1,0.06122,0.02788,2.15615
+Constructed Adverse,cards,2027Q2,0.06314,0.02723,2.26476
+Constructed Adverse,cards,2027Q3,0.06347,0.02646,2.33129
+Constructed Adverse,cards,2027Q4,0.06241,0.02566,2.35861
+Constructed Adverse,cards,2028Q1,0.06002,0.02488,2.33939
+Constructed Adverse,cards,2028Q2,0.05714,0.02421,2.29645
+Constructed Adverse,cards,2028Q3,0.05387,0.02368,2.22532
+Constructed Adverse,cards,2028Q4,0.04965,0.02349,2.09695
+Constructed Adverse,cards,2029Q1,0.0455,0.02366,1.93657
+Supervisory Baseline,cards,2026Q1,0.04209,0.02847,1.48726
+Supervisory Baseline,cards,2026Q2,0.04336,0.02859,1.52312
+Supervisory Baseline,cards,2026Q3,0.04387,0.02877,1.53415
+Supervisory Baseline,cards,2026Q4,0.04395,0.02888,1.52743
+Supervisory Baseline,cards,2027Q1,0.04334,0.02909,1.50042
+Supervisory Baseline,cards,2027Q2,0.04251,0.02937,1.46114
+Supervisory Baseline,cards,2027Q3,0.0417,0.02967,1.42003
+Supervisory Baseline,cards,2027Q4,0.04111,0.03006,1.38558
+Supervisory Baseline,cards,2028Q1,0.04061,0.03046,1.35103
+Supervisory Baseline,cards,2028Q2,0.04017,0.03096,1.31864
+Supervisory Baseline,cards,2028Q3,0.04003,0.03151,1.2929
+Supervisory Baseline,cards,2028Q4,0.04003,0.03203,1.27047
+Supervisory Baseline,cards,2029Q1,0.03999,0.0325,1.24852
+Supervisory Severely Adverse,cards,2026Q1,0.04503,0.02862,1.59133
+Supervisory Severely Adverse,cards,2026Q2,0.05288,0.02863,1.84786
+Supervisory Severely Adverse,cards,2026Q3,0.06291,0.0284,2.19731
+Supervisory Severely Adverse,cards,2026Q4,0.07521,0.02791,2.64814
+Supervisory Severely Adverse,cards,2027Q1,0.08648,0.02672,3.09847
+Supervisory Severely Adverse,cards,2027Q2,0.0938,0.02524,3.51056
+Supervisory Severely Adverse,cards,2027Q3,0.09661,0.02359,3.82795
+Supervisory Severely Adverse,cards,2027Q4,0.09474,0.02188,4.0164
+Supervisory Severely Adverse,cards,2028Q1,0.08871,0.02031,4.05351
+Supervisory Severely Adverse,cards,2028Q2,0.0813,0.0189,4.00356
+Supervisory Severely Adverse,cards,2028Q3,0.07311,0.01771,3.86875
+Supervisory Severely Adverse,cards,2028Q4,0.06259,0.01706,3.53381
+Supervisory Severely Adverse,cards,2029Q1,0.05305,0.01695,3.10877
+Constructed Adverse,business,2026Q1,0.0062,0.01339,0.49243
+Constructed Adverse,business,2026Q2,0.00755,0.01515,0.56366
+Constructed Adverse,business,2026Q3,0.00913,0.0172,0.603
+Constructed Adverse,business,2026Q4,0.01089,0.01944,0.63293
+Constructed Adverse,business,2027Q1,0.01237,0.02139,0.63657
+Constructed Adverse,business,2027Q2,0.01361,0.02312,0.63654
+Constructed Adverse,business,2027Q3,0.01438,0.02438,0.62221
+Constructed Adverse,business,2027Q4,0.01468,0.02516,0.60217
+Constructed Adverse,business,2028Q1,0.01455,0.02554,0.57849
+Constructed Adverse,business,2028Q2,0.01401,0.02548,0.54882
+Constructed Adverse,business,2028Q3,0.01318,0.02508,0.51737
+Constructed Adverse,business,2028Q4,0.01187,0.02414,0.47337
+Constructed Adverse,business,2029Q1,0.01045,0.02309,0.4328
+Supervisory Baseline,business,2026Q1,0.00508,0.01175,0.40322
+Supervisory Baseline,business,2026Q2,0.00476,0.01104,0.4053
+Supervisory Baseline,business,2026Q3,0.00448,0.0104,0.40608
+Supervisory Baseline,business,2026Q4,0.0043,0.00993,0.41321
+Supervisory Baseline,business,2027Q1,0.00413,0.00951,0.41566
+Supervisory Baseline,business,2027Q2,0.00402,0.00921,0.42238
+Supervisory Baseline,business,2027Q3,0.00393,0.00898,0.42693
+Supervisory Baseline,business,2027Q4,0.00387,0.00878,0.43081
+Supervisory Baseline,business,2028Q1,0.00384,0.00864,0.43722
+Supervisory Baseline,business,2028Q2,0.00381,0.00854,0.44126
+Supervisory Baseline,business,2028Q3,0.0038,0.00846,0.44522
+Supervisory Baseline,business,2028Q4,0.00379,0.00839,0.44805
+Supervisory Baseline,business,2029Q1,0.00378,0.00832,0.45093
+Supervisory Severely Adverse,business,2026Q1,0.00758,0.01526,0.60137
+Supervisory Severely Adverse,business,2026Q2,0.01197,0.02075,0.78406
+Supervisory Severely Adverse,business,2026Q3,0.01861,0.02831,0.89678
+Supervisory Severely Adverse,business,2026Q4,0.02757,0.03768,0.97383
+Supervisory Severely Adverse,business,2027Q1,0.03708,0.04738,0.98385
+Supervisory Severely Adverse,business,2027Q2,0.04613,0.0568,0.97363
+Supervisory Severely Adverse,business,2027Q3,0.0526,0.06448,0.92603
+Supervisory Severely Adverse,business,2027Q4,0.05572,0.06994,0.86412
+Supervisory Severely Adverse,business,2028Q1,0.05518,0.073,0.78902
+Supervisory Severely Adverse,business,2028Q2,0.05149,0.07354,0.7053
+Supervisory Severely Adverse,business,2028Q3,0.04604,0.07211,0.626
+Supervisory Severely Adverse,business,2028Q4,0.03761,0.06756,0.52149
+Supervisory Severely Adverse,business,2029Q1,0.02937,0.0624,0.43472
+Constructed Adverse,other_consumer,2026Q1,0.01192,,
+Constructed Adverse,other_consumer,2026Q2,0.01268,,
+Constructed Adverse,other_consumer,2026Q3,0.01347,,
+Constructed Adverse,other_consumer,2026Q4,0.01407,,
+Constructed Adverse,other_consumer,2027Q1,0.01413,,
+Constructed Adverse,other_consumer,2027Q2,0.01403,,
+Constructed Adverse,other_consumer,2027Q3,0.01379,,
+Constructed Adverse,other_consumer,2027Q4,0.01352,,
+Constructed Adverse,other_consumer,2028Q1,0.01321,,
+Constructed Adverse,other_consumer,2028Q2,0.01292,,
+Constructed Adverse,other_consumer,2028Q3,0.01272,,
+Constructed Adverse,other_consumer,2028Q4,0.01275,,
+Constructed Adverse,other_consumer,2029Q1,0.01274,,
+Supervisory Baseline,other_consumer,2026Q1,0.01159,,
+Supervisory Baseline,other_consumer,2026Q2,0.01185,,
+Supervisory Baseline,other_consumer,2026Q3,0.01207,,
+Supervisory Baseline,other_consumer,2026Q4,0.01205,,
+Supervisory Baseline,other_consumer,2027Q1,0.01212,,
+Supervisory Baseline,other_consumer,2027Q2,0.01215,,
+Supervisory Baseline,other_consumer,2027Q3,0.01212,,
+Supervisory Baseline,other_consumer,2027Q4,0.01219,,
+Supervisory Baseline,other_consumer,2028Q1,0.01223,,
+Supervisory Baseline,other_consumer,2028Q2,0.01234,,
+Supervisory Baseline,other_consumer,2028Q3,0.01243,,
+Supervisory Baseline,other_consumer,2028Q4,0.01246,,
+Supervisory Baseline,other_consumer,2029Q1,0.0124,,
+Supervisory Severely Adverse,other_consumer,2026Q1,0.01225,,
+Supervisory Severely Adverse,other_consumer,2026Q2,0.01356,,
+Supervisory Severely Adverse,other_consumer,2026Q3,0.01503,,
+Supervisory Severely Adverse,other_consumer,2026Q4,0.01643,,
+Supervisory Severely Adverse,other_consumer,2027Q1,0.01648,,
+Supervisory Severely Adverse,other_consumer,2027Q2,0.01619,,
+Supervisory Severely Adverse,other_consumer,2027Q3,0.0157,,
+Supervisory Severely Adverse,other_consumer,2027Q4,0.01498,,
+Supervisory Severely Adverse,other_consumer,2028Q1,0.01426,,
+Supervisory Severely Adverse,other_consumer,2028Q2,0.01353,,
+Supervisory Severely Adverse,other_consumer,2028Q3,0.01296,,
+Supervisory Severely Adverse,other_consumer,2028Q4,0.01298,,
+Supervisory Severely Adverse,other_consumer,2029Q1,0.01302,,
+Constructed Adverse,cre,2026Q1,0.0021,0.01886,0.11473
+Constructed Adverse,cre,2026Q2,0.00212,0.01918,0.11226
+Constructed Adverse,cre,2026Q3,0.00244,0.02002,0.12694
+Constructed Adverse,cre,2026Q4,0.00292,0.02091,0.14609
+Constructed Adverse,cre,2027Q1,0.00347,0.02167,0.16615
+Constructed Adverse,cre,2027Q2,0.00412,0.02242,0.18994
+Constructed Adverse,cre,2027Q3,0.00491,0.0232,0.21899
+Constructed Adverse,cre,2027Q4,0.00588,0.02411,0.25353
+Constructed Adverse,cre,2028Q1,0.00651,0.02455,0.27017
+Constructed Adverse,cre,2028Q2,0.00665,0.02466,0.27083
+Constructed Adverse,cre,2028Q3,0.00637,0.02437,0.25839
+Constructed Adverse,cre,2028Q4,0.00569,0.02369,0.2334
+Constructed Adverse,cre,2029Q1,0.00527,0.02322,0.22239
+Supervisory Baseline,cre,2026Q1,0.00214,0.01845,0.11716
+Supervisory Baseline,cre,2026Q2,0.00211,0.01833,0.11413
+Supervisory Baseline,cre,2026Q3,0.00222,0.01866,0.12108
+Supervisory Baseline,cre,2026Q4,0.00233,0.01889,0.125
+Supervisory Baseline,cre,2027Q1,0.00241,0.01918,0.12777
+Supervisory Baseline,cre,2027Q2,0.00252,0.01948,0.13124
+Supervisory Baseline,cre,2027Q3,0.00262,0.01982,0.1343
+Supervisory Baseline,cre,2027Q4,0.00268,0.02023,0.1351
+Supervisory Baseline,cre,2028Q1,0.00274,0.02067,0.13532
+Supervisory Baseline,cre,2028Q2,0.00279,0.02112,0.13512
+Supervisory Baseline,cre,2028Q3,0.00285,0.0216,0.13469
+Supervisory Baseline,cre,2028Q4,0.00289,0.02209,0.13401
+Supervisory Baseline,cre,2029Q1,0.00297,0.02259,0.13459
+Supervisory Severely Adverse,cre,2026Q1,0.00206,0.01927,0.11235
+Supervisory Severely Adverse,cre,2026Q2,0.00213,0.02007,0.11042
+Supervisory Severely Adverse,cre,2026Q3,0.00267,0.02148,0.13309
+Supervisory Severely Adverse,cre,2026Q4,0.00367,0.02315,0.17075
+Supervisory Severely Adverse,cre,2027Q1,0.005,0.02448,0.2161
+Supervisory Severely Adverse,cre,2027Q2,0.00673,0.0258,0.27497
+Supervisory Severely Adverse,cre,2027Q3,0.00922,0.02713,0.35725
+Supervisory Severely Adverse,cre,2027Q4,0.01292,0.0287,0.47606
+Supervisory Severely Adverse,cre,2028Q1,0.01549,0.02913,0.53983
+Supervisory Severely Adverse,cre,2028Q2,0.01582,0.02877,0.54324
+Supervisory Severely Adverse,cre,2028Q3,0.01427,0.02749,0.49599
+Supervisory Severely Adverse,cre,2028Q4,0.01118,0.02541,0.40662
+Supervisory Severely Adverse,cre,2029Q1,0.00934,0.02386,0.36749
+Constructed Adverse,mortgage,2026Q1,0.00056,0.02078,0.0294
+Constructed Adverse,mortgage,2026Q2,0.00103,0.02342,0.04975
+Constructed Adverse,mortgage,2026Q3,0.00183,0.02688,0.07803
+Constructed Adverse,mortgage,2026Q4,0.00309,0.03125,0.11479
+Constructed Adverse,mortgage,2027Q1,0.00455,0.03578,0.14565
+Constructed Adverse,mortgage,2027Q2,0.00601,0.04024,0.16789
+Constructed Adverse,mortgage,2027Q3,0.0075,0.04494,0.18628
+Constructed Adverse,mortgage,2027Q4,0.00885,0.04976,0.19685
+Constructed Adverse,mortgage,2028Q1,0.00923,0.05349,0.18553
+Constructed Adverse,mortgage,2028Q2,0.00879,0.05586,0.16433
+Constructed Adverse,mortgage,2028Q3,0.00777,0.05679,0.13915
+Constructed Adverse,mortgage,2028Q4,0.0065,0.05632,0.11452
+Constructed Adverse,mortgage,2029Q1,0.00557,0.05564,0.09891
+Supervisory Baseline,mortgage,2026Q1,0.00049,0.02008,0.02561
+Supervisory Baseline,mortgage,2026Q2,0.0007,0.02107,0.03492
+Supervisory Baseline,mortgage,2026Q3,0.00094,0.02207,0.04442
+Supervisory Baseline,mortgage,2026Q4,0.00117,0.02303,0.05284
+Supervisory Baseline,mortgage,2027Q1,0.00139,0.02401,0.06057
+Supervisory Baseline,mortgage,2027Q2,0.0016,0.025,0.06681
+Supervisory Baseline,mortgage,2027Q3,0.00178,0.02594,0.07127
+Supervisory Baseline,mortgage,2027Q4,0.00193,0.02685,0.07457
+Supervisory Baseline,mortgage,2028Q1,0.00206,0.02774,0.07687
+Supervisory Baseline,mortgage,2028Q2,0.00217,0.0286,0.0782
+Supervisory Baseline,mortgage,2028Q3,0.00225,0.02939,0.07867
+Supervisory Baseline,mortgage,2028Q4,0.00231,0.03014,0.07853
+Supervisory Baseline,mortgage,2029Q1,0.00233,0.0308,0.07741
+Supervisory Severely Adverse,mortgage,2026Q1,0.00064,0.0215,0.03376
+Supervisory Severely Adverse,mortgage,2026Q2,0.00152,0.02603,0.07088
+Supervisory Severely Adverse,mortgage,2026Q3,0.00357,0.0327,0.13711
+Supervisory Severely Adverse,mortgage,2026Q4,0.00816,0.04229,0.24964
+Supervisory Severely Adverse,mortgage,2027Q1,0.01486,0.053,0.35132
+Supervisory Severely Adverse,mortgage,2027Q2,0.02249,0.06416,0.42438
+Supervisory Severely Adverse,mortgage,2027Q3,0.03154,0.07676,0.49151
+Supervisory Severely Adverse,mortgage,2027Q4,0.04046,0.0904,0.52703
+Supervisory Severely Adverse,mortgage,2028Q1,0.0413,0.10065,0.4568
+Supervisory Severely Adverse,mortgage,2028Q2,0.03561,0.10627,0.3538
+Supervisory Severely Adverse,mortgage,2028Q3,0.02685,0.10691,0.2527
+Supervisory Severely Adverse,mortgage,2028Q4,0.01833,0.10283,0.1714
+Supervisory Severely Adverse,mortgage,2029Q1,0.0133,0.09848,0.12935

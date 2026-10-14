@@ -1,0 +1,4 @@
+scenario,cet1_start_pct,cet1_min_pct_9q,min_quarter,cet1_end_9q_pct,ppnr_9q,nco_9q,provisions_9q,allowance_end_9q,pretax_9q,net_income_9q
+Adverse (constructed),11.36,11.57,2026Q1,13.71,89.96,27.8,27.45,12.86,57.91,46.87
+Baseline,11.36,11.8,2026Q1,16.05,119.77,16.44,10.45,7.21,109.32,88.48
+Severely Adverse,11.36,10.26,2027Q4,10.3,67.64,59.27,75.25,29.18,-16.82,-13.61

@@ -1,0 +1,6 @@
+shock,static_deposits_b,dynamic_deposits_b,dynamic_pct_of_run_rate
+Parallel +200bp,5.859,1.262,2.01
+Parallel +100bp,2.929,0.934,1.487
+Parallel -100bp,-3.096,-2.12,-3.376
+Parallel -200bp,-6.288,-5.048,-8.038
+Parallel -300bp (extrapolated),-9.48,-8.054,-12.824

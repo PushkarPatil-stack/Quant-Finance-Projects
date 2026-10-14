@@ -1,0 +1,5 @@
+spec,R2,backtest_pred_9q,backtest_actual_9q,shortfall_x,severe_9q,severe_9q_scaled_by_backtest,fed_bac_9q
+base: ur + cre4,0.9,1.98,4.41,2.23,1.5,3.34,9.3
+drawdown only,0.895,1.92,4.41,2.3,1.94,4.45,9.3
+ur + drawdown,0.898,1.36,4.41,3.25,0.99,3.23,9.3
+cre4 + drawdown,0.901,2.73,4.41,1.62,2.7,4.36,9.3

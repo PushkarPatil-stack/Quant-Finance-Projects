@@ -1,0 +1,7 @@
+portfolio,model_9q_cum_loss_pct,fed_bac_pct,fed_32bank_pct,model_total_is,model_minus_fed_bac_pp,source
+total loans,4.77,5.2,6.9,BAC-scaled (k x industry mix),-0.43,"Fed 2026 DFAST results, Table 10, severely adverse, 2026Q1-2028Q1"
+credit cards,17.41,16.2,17.1,"industry curve, not scaled",1.21,"Fed 2026 DFAST results, Table 10, severely adverse, 2026Q1-2028Q1"
+commercial & industrial,7.81,6.5,9.0,"industry curve, not scaled",1.31,"Fed 2026 DFAST results, Table 10, severely adverse, 2026Q1-2028Q1"
+commercial real estate,1.5,9.3,8.8,"industry curve, not scaled",-7.8,"Fed 2026 DFAST results, Table 10, severely adverse, 2026Q1-2028Q1"
+residential mortgage (model) vs first-lien (Fed),4.11,1.3,1.5,"industry curve, not scaled",2.81,"Fed 2026 DFAST results, Table 10, severely adverse, 2026Q1-2028Q1"
+other consumer,3.37,2.0,7.3,"industry curve, not scaled",1.37,"Fed 2026 DFAST results, Table 10, severely adverse, 2026Q1-2028Q1"

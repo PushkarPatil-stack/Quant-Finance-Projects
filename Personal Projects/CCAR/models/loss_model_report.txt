@@ -1,0 +1,20 @@
+Window 2000Q1-2025Q4; one-step ECM/ARDL(1,1) + COVID dummy 2020Q2-2021Q4
+
+FIT (resid_AR1 near 0 = residuals are not autocorrelated; rho = persistence; half_life = quarters for a shock to decay by half)
+       segment equation   n    R2  resid_AR1   rho  speed_1-rho  half_life_q  resid_sd
+         cards     LOSS 104 0.935     -0.169 0.740        0.260        2.299     0.100
+         cards       PD 104 0.981      0.367 0.981        0.019       36.234     0.054
+      business     LOSS 104 0.941     -0.018 0.890        0.110        5.962     0.202
+      business       PD 104 0.970      0.313 0.974        0.026       26.061     0.097
+other_consumer     LOSS 104 0.900     -0.130 0.836        0.164        3.877     0.158
+           cre     LOSS  66 0.900     -0.001 0.865        0.135        4.795     0.422
+           cre       PD 104 0.985      0.479 1.009       -0.009          NaN     0.103
+      mortgage     LOSS  71 0.938     -0.116 0.780        0.220        2.785     0.328
+      mortgage       PD 104 0.996      0.447 0.936        0.064       10.528     0.050
+
+PROJECTED ANNUALIZED NCO RATE (%), 2026Q1-2029Q1 (13 quarters):
+  business        Constructed Adverse: peak 1.47 (Q8), avg9 1.15 | Baseline: peak 0.51 (Q1), avg9 0.43 | Severely Adverse: peak 5.57 (Q8), avg9 3.47
+  cards           Constructed Adverse: peak 6.35 (Q7), avg9 5.69 | Baseline: peak 4.39 (Q4), avg9 4.25 | Severely Adverse: peak 9.66 (Q7), avg9 7.74
+  cre             Constructed Adverse: peak 0.66 (Q10), avg9 0.38 | Baseline: peak 0.30 (Q13), avg9 0.24 | Severely Adverse: peak 1.58 (Q10), avg9 0.67
+  mortgage        Constructed Adverse: peak 0.92 (Q9), avg9 0.47 | Baseline: peak 0.23 (Q13), avg9 0.13 | Severely Adverse: peak 4.13 (Q9), avg9 1.83
+  other_consumer  Constructed Adverse: peak 1.41 (Q5), avg9 1.34 | Baseline: peak 1.25 (Q12), avg9 1.20 | Severely Adverse: peak 1.65 (Q5), avg9 1.50

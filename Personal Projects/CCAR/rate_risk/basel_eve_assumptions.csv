@@ -1,0 +1,22 @@
+parameter,value,source,note
+USD shocks: parallel / short / long (bp),200 / 300 / 150,BASEL,BCBS d368 Annex 2 Table 1
+"short-shock decay, steepener/flattener weights","exp(-t/4); -0.65,+0.9; +0.8,-0.6",BASEL,Annex 2
+time buckets,"19 buckets, midpoints 0.0028y to 25y",BASEL,Table 1
+NMD core caps / maturity caps,90/70/50%; 5/4.5/4y,BASEL,Table 2
+prepayment multipliers,"0.8 rates up, 1.2 rates down",BASEL,Table 3
+outlier test,15% of Tier 1,BASEL,"paragraph 94-ish, Pillar 2 threshold"
+"balances, deposit split, securities buckets, securities fair value, Tier 1",see data,DATA,Y-9C 2025Q4
+securities spread to base curve (solved so PV = fair value),74 bp,DATA-DERIVED,HTM + AFS fair value
+base curve,"3m 3.70%, 5y 3.70%, 10y 4.10%","ASSUMED (Fed series, 2025Q4)",linear between nodes
+retail share of domestic deposits,0.6,ASSUMED,not in Y-9C; BAC segment mix is the guide
+NMD core share and maturity vs caps,1.0,ASSUMED (=caps),sensitivity at 75% and 50%
+mortgage CPR / coupon / remaining term,6% / 4.0% / 25y,ASSUMED,
+other fixed loans: coupon / life / CPR,6.5% / 5y / 10%,ASSUMED,
+MBS-like >5y securities: remaining term / CPR,25y / 7%,ASSUMED,
+floating-rate reset,1 month,ASSUMED,
+floating share of long-term debt: contractual / after hedges,12% / 78%,DATA (10-K Note 11 + FY2025 fair-value-hedge table),"hedged LTD $175.7B plus contractual floating $31.4B, of $264.0B excluding structured liabilities"
+hedged share of AFS securities,$236.3B of AFS amortised cost (about 26% of all securities),DATA (FY2025 10-K),HTM treated as unhedged; hedged AFS assumed proportional across maturity buckets
+long-term debt maturity ladder,"2026-2030 and thereafter, from the note",DATA,coupon 4.0% assumed
+loans fair value vs carrying,"-12.7B, all assigned to fixed loans",DATA (10-K fair value footnote),deposits (+0.1%) and LTD (+2.1%) left at book
+post-shock rate floor,0%,ASSUMED,Basel allows floors not above zero
+derivatives / hedges,none in headline,NOT VISIBLE,see hedge sensitivity

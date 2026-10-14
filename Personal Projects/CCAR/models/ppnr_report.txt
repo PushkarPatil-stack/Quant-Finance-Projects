@@ -1,0 +1,26 @@
+PPNR model, fit 2014Q1-2025Q4; assets held flat at $3,412B
+
+FIT (in sample) and out-of-sample check (refit before 2020Q1)
+equation  n    R2  resid_AR1   rho  speed_1-rho  resid_sd
+     NIM 48 0.876     -0.295 0.784        0.216     0.077
+     FEE 48 0.618     -0.229 0.749        0.251     0.182
+     EXP 48 0.668     -0.476 0.721        0.279     0.074
+
+equation  n_test  rmse   mae  R2_oos
+     NIM      24 0.661 0.629 -14.199
+     FEE      24 0.420 0.374  -7.560
+     EXP      24 0.078 0.063   0.102
+
+Latest actual quarterly PPNR 13.7B; x9 = 124B (flat run-rate benchmark).
+
+Constructed Adverse (with overlays): 9-quarter PPNR 90.0B | NII 137.4 fees 123.4 expense 170.9 | lowest quarter PPNR 9.7B
+Supervisory Baseline: 9-quarter PPNR 119.8B | NII 144.9 fees 134.2 expense 159.4 | lowest quarter PPNR 13.2B
+Supervisory Severely Adverse (data-driven model only): 9-quarter PPNR 112.6B | NII 139.6 fees 127.8 expense 154.8 | lowest quarter PPNR 10.5B
+Supervisory Severely Adverse (with overlays): 9-quarter PPNR 67.6B | NII 127.9 fees 115.8 expense 176.1 | lowest quarter PPNR 7.1B
+
+Expense elasticity to revenue used in the overlay (long-run, from the EXP equation): 0.64
+Sensitivity of the with-overlay severe 9Q PPNR (NII effect scaled x0.5 / x1.5 or fee stress scaled): base overlays 67.6B; NII sensitivity x0.5 72.9B; NII sensitivity x1.5 62.4B; fee stress x0.5 73.3B; fee stress x1.5 62.0B; IB haircut 0.00 (2008 and 2020 behaviour) 71.0B; IB haircut 0.24 69.0B; IB haircut 0.54 66.5B; elasticity 0.5 69.0B; elasticity 0.7 66.3B; S&T haircut 0.15 63.7B
+Fed components, BAC severe 9Q (benchmark): nii 151.1, nonint_income 89.1, nonint_expense 174.0
+Overlay parameters and sources are in ppnr_overlays.csv; ranges and sources for each parameter are in the notes.
+
+Fed published BAC severely adverse 9-quarter PPNR: 66.2B (benchmark only; nothing here is fitted to it).

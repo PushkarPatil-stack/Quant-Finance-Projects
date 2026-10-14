@@ -1,0 +1,5 @@
+variant,total_9q_loss_pct,total_9q_loss_b,change_vs_model_b,fed_total_pct
+Model as built,4.763,59.496,0.0,5.2
+CRE set to the Fed's,5.181,64.706,5.21,5.2
+Mortgage set to the Fed's,4.165,52.021,-7.474,5.2
+CRE and mortgage set to the Fed's,4.582,57.231,-2.264,5.2

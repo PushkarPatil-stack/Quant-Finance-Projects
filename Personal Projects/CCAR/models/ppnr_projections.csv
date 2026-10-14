@@ -1,0 +1,53 @@
+scenario,quarter,nii,nonint_income,nonint_expense,ppnr,oprisk_loss
+Supervisory Baseline,2026Q1,15.791,15.685,17.66,13.816,
+Supervisory Baseline,2026Q2,15.805,15.455,17.682,13.579,
+Supervisory Baseline,2026Q3,15.854,15.122,17.652,13.324,
+Supervisory Baseline,2026Q4,15.967,14.897,17.659,13.205,
+Supervisory Baseline,2027Q1,16.11,14.746,17.687,13.168,
+Supervisory Baseline,2027Q2,16.222,14.645,17.714,13.154,
+Supervisory Baseline,2027Q3,16.311,14.58,17.738,13.152,
+Supervisory Baseline,2027Q4,16.419,14.539,17.773,13.185,
+Supervisory Baseline,2028Q1,16.453,14.516,17.786,13.183,
+Supervisory Baseline,2028Q2,16.455,14.507,17.791,13.172,
+Supervisory Baseline,2028Q3,16.512,14.507,17.814,13.204,
+Supervisory Baseline,2028Q4,16.557,14.511,17.835,13.233,
+Supervisory Baseline,2029Q1,16.592,14.518,17.852,13.257,
+Supervisory Severely Adverse (with overlays),2026Q1,15.189,13.932,20.136,8.985,3.337
+Supervisory Severely Adverse (with overlays),2026Q2,13.564,13.278,19.369,7.474,3.337
+Supervisory Severely Adverse (with overlays),2026Q3,13.765,12.585,19.246,7.104,3.337
+Supervisory Severely Adverse (with overlays),2026Q4,13.953,12.539,19.345,7.147,3.337
+Supervisory Severely Adverse (with overlays),2027Q1,14.096,12.548,19.432,7.212,3.337
+Supervisory Severely Adverse (with overlays),2027Q2,14.208,12.595,19.514,7.289,3.337
+Supervisory Severely Adverse (with overlays),2027Q3,14.297,12.668,19.591,7.374,3.337
+Supervisory Severely Adverse (with overlays),2027Q4,14.405,12.759,19.678,7.487,3.337
+Supervisory Severely Adverse (with overlays),2028Q1,14.439,12.863,19.739,7.563,3.337
+Supervisory Severely Adverse (with overlays),2028Q2,14.517,12.977,16.482,11.012,0.0
+Supervisory Severely Adverse (with overlays),2028Q3,14.574,13.095,16.553,11.117,0.0
+Supervisory Severely Adverse (with overlays),2028Q4,14.619,13.216,16.618,11.216,0.0
+Supervisory Severely Adverse (with overlays),2029Q1,14.654,13.336,16.68,11.31,0.0
+Supervisory Severely Adverse (data-driven model only),2026Q1,14.996,14.486,16.992,12.49,
+Supervisory Severely Adverse (data-driven model only),2026Q2,14.155,13.465,16.422,11.198,
+Supervisory Severely Adverse (data-driven model only),2026Q3,14.749,12.015,16.154,10.61,
+Supervisory Severely Adverse (data-driven model only),2026Q4,15.212,11.353,16.101,10.465,
+Supervisory Severely Adverse (data-driven model only),2027Q1,15.587,12.719,16.725,11.582,
+Supervisory Severely Adverse (data-driven model only),2027Q2,15.881,14.085,17.32,12.646,
+Supervisory Severely Adverse (data-driven model only),2027Q3,16.152,15.771,18.011,13.912,
+Supervisory Severely Adverse (data-driven model only),2027Q4,16.352,16.67,18.416,14.606,
+Supervisory Severely Adverse (data-driven model only),2028Q1,16.509,17.226,18.69,15.045,
+Supervisory Severely Adverse (data-driven model only),2028Q2,16.671,17.524,18.876,15.319,
+Supervisory Severely Adverse (data-driven model only),2028Q3,16.787,17.625,18.976,15.436,
+Supervisory Severely Adverse (data-driven model only),2028Q4,16.917,17.574,19.025,15.466,
+Supervisory Severely Adverse (data-driven model only),2029Q1,17.046,17.4,19.028,15.419,
+Constructed Adverse (with overlays),2026Q1,15.575,14.699,19.26,11.014,2.037
+Constructed Adverse (with overlays),2026Q2,14.802,14.182,18.879,10.105,2.037
+Constructed Adverse (with overlays),2026Q3,14.925,13.574,18.768,9.732,2.037
+Constructed Adverse (with overlays),2026Q4,15.075,13.481,18.834,9.721,2.037
+Constructed Adverse (with overlays),2027Q1,15.218,13.444,18.905,9.757,2.037
+Constructed Adverse (with overlays),2027Q2,15.33,13.447,18.97,9.808,2.037
+Constructed Adverse (with overlays),2027Q3,15.419,13.477,19.029,9.866,2.037
+Constructed Adverse (with overlays),2027Q4,15.527,13.524,19.098,9.954,2.037
+Constructed Adverse (with overlays),2028Q1,15.561,13.584,19.142,10.003,2.037
+Constructed Adverse (with overlays),2028Q2,15.599,13.653,17.152,12.1,0.0
+Constructed Adverse (with overlays),2028Q3,15.656,13.727,17.205,12.178,0.0
+Constructed Adverse (with overlays),2028Q4,15.701,13.802,17.252,12.251,0.0
+Constructed Adverse (with overlays),2029Q1,15.736,13.877,17.295,12.317,0.0

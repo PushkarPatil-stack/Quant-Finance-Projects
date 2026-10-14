@@ -1,0 +1,12 @@
+CRE refit on BAC's own mix-standardised series (60 quarters, 2007Q1-2025Q4; today's weights construction 13%, multifamily 10%, non-farm non-residential 77%)
+Projection start rate 0.65% (2025 full-year rate).
+
+                              spec  n    R2  rho  backtest_pred_9q  backtest_actual_9q  severe_9q_cum_pct  severe_peak_pct
+ur + cre4 (same as industry model) 34 0.879 0.52              2.50                1.86               3.78             3.99
+                     drawdown only 34 0.822 0.74              1.10                1.86               2.30             3.43
+                     ur + drawdown 34 0.858 0.40              1.71                1.86               2.61             2.32
+                   cre4 + drawdown 34 0.837 0.74              1.94                1.86               3.33             3.68
+
+First specification (same as the industry model): severe nine-quarter CRE loss 3.78% vs industry model 1.50% and Fed 9.3%.
+Total nine-quarter loss with this CRE curve: 4.89% vs 4.77% (change +1.5B; about -0.07pp of CET1 before any reserve effect).
+Coefficient t-statistics are in cre_bac_coefficients.csv; most are below 2, so treat the specifications as a range.

@@ -1,0 +1,14 @@
+parameter,value,source,note
+disclosed NII sensitivities,static 2023 (6) + static 2024 (8) + dynamic 2024 (8) + dynamic 2025 (8),DATA,BAC 10-K Tables 44 and 45
+deposit beta on interest-bearing deposits,0.4133790396513434,CALIBRATED,"least squares, static and dynamic points"
+share of interest-bearing deposits in low-rate tier,0.04281019333444971,CALIBRATED,asymmetry between up and down shocks
+long-end repricing scale on fixed-rate assets (net of hedges),0.1600674105094431,CALIBRATED,captures swaps/hedges not visible in Y-9C
+share of >1y borrowings effectively floating,0.9999999999999999,CALIBRATED,10-K Note 11: contractual floating is only ~12% before swaps
+"deposit migration, rates up: coefficient / exponent",-0.00375 / 1.20,CALIBRATED,x NIB $532B = $-2.00B per +100bp
+"deposit migration, rates down: coefficient / exponent",0.0018 / 0.34,CALIBRATED,"inflow benefit, concave in the size of the cut"
+floating share of loans,0.6625922959878272,"ASSUMED mapping, DATA balances","C&I, cards, other revolving, non-bank financial, other, HELOC, CRE floating; mortgages, auto fixed"
+fixed-loan average life (years),5.0,ASSUMED,
+MBS prepayment: share of >5y bucket repricing per year,0.1,ASSUMED,
+low-rate tier deposit cost,0.0015,ASSUMED,
+securities maturity buckets <=1y / 1-5y / >5y ($B),101 / 302 / 506,DATA,Y-9C 2025Q4
+management action,none,per BAC disclosure,"instantaneous shock, no action"

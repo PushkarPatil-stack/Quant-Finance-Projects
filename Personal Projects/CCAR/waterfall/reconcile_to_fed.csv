@@ -1,0 +1,6 @@
+item,run_rate_9q,model,fed,model_vs_run_pct,fed_vs_run_pct,model_minus_fed
+Net interest income,135.22,127.92,151.1,-5.4,11.75,-23.18
+Noninterest income,123.44,115.77,89.1,-6.22,-27.82,26.67
+Net revenue (NII + noninterest income),258.66,243.68,240.2,-5.79,-7.14,3.48
+Noninterest expense (model incl. operational-risk loss),156.89,176.05,174.0,12.22,10.91,2.05
+PPNR,101.77,67.64,66.2,-33.54,-34.95,1.44

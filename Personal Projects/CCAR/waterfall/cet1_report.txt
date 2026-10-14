@@ -1,0 +1,32 @@
+Start (Y-9C 2025Q4): CET1 201.4B / RWA 1,772.9B = 11.36%; allowance 13.2B on loans 1,244B; tax rate 19.1% (BAC 2025 effective); common dividends 8.1B/yr
+Calibrated CECL horizon H (used only in the sensitivity rows) solved so baseline reproduces actual allowance: 7.2 quarters (about 1.8 years).
+
+             scenario  cet1_start_pct  cet1_min_pct_9q min_quarter  cet1_end_9q_pct  ppnr_9q  nco_9q  provisions_9q  allowance_end_9q  pretax_9q  net_income_9q
+Adverse (constructed)           11.36            11.57      2026Q1            13.71    89.96   27.80          27.45             12.86      57.91          46.87
+             Baseline           11.36            11.80      2026Q1            16.05   119.77   16.44          10.45              7.21     109.32          88.48
+     Severely Adverse           11.36            10.26      2027Q4            10.30    67.64   59.27          75.25             29.18     -16.82         -13.61
+
+Severely adverse vs the 10.0% requirement (4.5 + 3.0 GSIB + 2.5 SCB): minimum 10.26% in 2027Q4 -> ABOVE by 0.26pp
+
+Fed published for BAC (severely adverse, benchmark only): cet1_start_pct 11.4, cet1_min_pct 9.9, cet1_end_2028Q1_pct 10.8, ppnr_9q 66.2, provisions_9q 69.5, pretax_9q -12.5
+Fed-set stress items included (severe only, not modelled): {'securities_credit_losses': 0.7, 'trading_counterparty_losses': 6.6, 'other_losses': 1.9}; source: Fed 2026 DFAST results, Bank of America one-page summary, severely adverse, 2026Q1-2028Q1.
+
+Provisions gap decomposition (severe, 9Q): loan losses model 59.3B vs Fed 64.9B; allowance build model 16.0B vs Fed 4.6B (Fed provisions - loan losses).
+Allowance / capital-action method (severe). Base follows the Fed: allowance = next four quarters of losses, start difference smoothed over 9Q, no common dividends after Q1. The Fed's end allowance is implied from its published provisions less loan losses:
+                                                                              method  nco_9q  provisions_9q  allowance_end_9q  dividends_9q  pretax_9q  cet1_min_pct  cet1_end_pct
+Fed rules: 4-quarter allowance smoothed over 9Q, no common dividends after Q1 (BASE)   59.27          75.25             29.18          5.27     -16.82         10.26         10.30
+                                       Fed allowance rule, common dividends continue   59.27          75.25             29.18         21.44     -16.82          9.38          9.38
+                                     Calibrated 7.2-quarter allowance, Fed dividends   59.27          86.10             40.03          5.27     -27.66          9.40          9.80
+          Calibrated 7.2-quarter allowance, common dividends continue (earlier base)   59.27          86.10             40.03         21.44     -27.66          8.83          8.89
+Fed rules + loss timing taken from the Fed's aggregate path (BAC 9Q total unchanged)   59.27          62.96             16.89          5.27      -4.53         10.74         10.86
+                                                               ... and Fed OCI +4.7B   59.27          62.96             16.89          5.27      -4.53         10.91         11.12
+                                                             Fed published / implied   64.90          69.50             17.80          5.50     -12.50          9.90         10.80
+
+Remaining steps from the model's severe CET1 to the Fed's (cumulative):
+                                                   step  provisions_9q  pretax_9q  cet1_min_pct  cet1_end_pct
+Model with the Fed's allowance and capital-action rules          75.25     -16.82         10.26         10.30
+ + Fed other comprehensive income (+4.7B, not modelled)          75.25     -16.82         10.49         10.56
+                 + loan losses set to the Fed's (64.9B)          80.88     -22.45         10.28         10.30
+                                          Fed published          69.50     -12.50          9.90         10.80
+
+Not modelled in the base case: OCI (Fed +4.7B, about +0.26pp of CET1), balance-sheet growth, buybacks (zero), tax-asset limits.

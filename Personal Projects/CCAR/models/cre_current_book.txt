@@ -1,0 +1,33 @@
+[property_mix] Industrial/Warehouse: 19.0  % of CRE; 2024 20.0%; balance 13031 vs 13166 $M (-1.0%)
+[property_mix] Office: 18.1  % of CRE; 2024 22.9%; balance 12447 vs 15061 $M (-17.4%)
+[property_mix] Multi-family rental: 16.0  % of CRE; 2024 16.8%; balance 10986 vs 11022 $M (-0.3%)
+[property_mix] Shopping centers/Retail: 10.1  % of CRE; 2024 8.5%; balance 6947 vs 5603 $M (+24.0%)
+[property_mix] Hotel/Motels: 6.7  % of CRE; 2024 7.1%; balance 4629 vs 4680 $M (-1.1%)
+[property_mix] Multi-use: 3.6  % of CRE; 2024 3.3%; balance 2509 vs 2162 $M (+16.0%)
+[property_mix] Other non-residential: 25.2  % of CRE; 2024 20.1%; balance 17295 vs 13179 $M (+31.2%)
+[property_mix] Residential: 1.3  % of CRE; 2024 1.3%; balance 904 vs 857 $M (+5.5%)
+[book] reservable criticized % of CRE: 12.1  8313 of 68748
+[book] nonperforming % of CRE 2025: 2.32  2024 3.15%
+[book] accruing 90+ past due % 2025: 0.015  
+[book] gross charge-off rate 2025 %: 0.76  520 $M
+[book] modified loans (borrowers in difficulty) % 2025: 2.88  2024 3.64% (10-K reports 2.88 / 3.64)
+[book] modified loans 90+ past due $M: 558  2024 203; share of modified 28% vs 8%
+[criticized_by_vintage] 2025: 0.0  % criticized; 5 of 11698 $M
+[criticized_by_vintage] 2024: 4.3  % criticized; 249 of 5856 $M
+[criticized_by_vintage] 2023: 7.7  % criticized; 366 of 4784 $M
+[criticized_by_vintage] 2022: 22.0  % criticized; 2294 of 10430 $M
+[criticized_by_vintage] 2021: 24.3  % criticized; 1986 of 8161 $M
+[criticized_by_vintage] Prior: 17.2  % criticized; 2874 of 16670 $M
+[criticized_by_vintage] Revolving: 4.8  % criticized; 539 of 11149 $M
+[fed_aggregate_shape] loan losses total: peak PQ5; PQ9/peak = 0.75  9Q total 624.9; path [50.7, 56.7, 67.7, 80.3, 83.0, 77.7, 74.1, 72.1, 62.6]
+[fed_aggregate_shape] loan losses CRE: peak PQ8; PQ9/peak = 0.73  9Q total 76.5; path [3.0, 5.1, 6.9, 10.3, 9.6, 10.4, 11.1, 11.6, 8.5]
+[fed_aggregate_shape] loan losses C&I: peak PQ4; PQ9/peak = 0.79  9Q total 158.2; path [12.3, 16.6, 18.8, 19.8, 19.8, 19.4, 18.5, 17.3, 15.7]
+[fed_aggregate_shape] loan losses credit cards: peak PQ5; PQ9/peak = 0.61  9Q total 202.9; path [21.2, 17.0, 21.3, 27.1, 30.4, 23.9, 21.9, 21.6, 18.5]
+[fed_aggregate_shape] provisions minus loan losses by quarter: +44.0; +31.9; +16.6; +1.1; -11.8; -16.1; -18.9; -21.0; -16.1  9Q build +9.7 on losses 624.9 = 1.6% (BAC Fed: 4.6/64.9 = 7.1%); provisions fall below losses from PQ5
+[fed_aggregate_shape] CRE share of aggregate loan losses %: 12.2  
+[bridge] Fed CRE 9Q loss $M / balance: 10.3  7100 $M on 68748; Fed's 9.3% implies avg balance 76,344 $M (definition/balance differs from 10-K)
+[bridge] model CRE loss $M at 3.78%: 2599  
+[bridge] criticized loans lost at LGD 25% $M: 2078  = 80% of model loss, 29% of Fed loss; remaining to Fed 5022 $M = 8.3% of pass-rated; remaining to model 520 $M = 0.9%
+[bridge] criticized loans lost at LGD 35% $M: 2910  = 112% of model loss, 41% of Fed loss; remaining to Fed 4190 $M = 6.9% of pass-rated; remaining to model -311 $M = -0.5%
+[bridge] criticized loans lost at LGD 45% $M: 3741  = 144% of model loss, 53% of Fed loss; remaining to Fed 3359 $M = 5.6% of pass-rated; remaining to model -1142 $M = -1.9%
+[bridge] office at 20/30/40% loss $M: 2489; 3734; 4979  illustrative

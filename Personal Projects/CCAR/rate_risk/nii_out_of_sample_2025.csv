@@ -1,0 +1,9 @@
+shock,disclosed_b,predicted_b,diff_b
++100 parallel,0.7,1.128,0.428
+-100 parallel,-2.0,-2.249,-0.249
++200 parallel,0.8,1.742,0.942
+-200 parallel,-4.9,-5.204,-0.304
+Flattener: short +100,0.5,0.792,0.292
+Flattener: long -100,-0.3,-0.336,-0.036
+Steepener: short -100,-1.7,-1.912,-0.212
+Steepener: long +100,0.3,0.336,0.036

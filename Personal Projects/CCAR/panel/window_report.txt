@@ -1,0 +1,60 @@
+STRICT COMMON WINDOW (all 35 required series): 2011Q1 to 2025Q4 (60 quarters)
+  start set by: bac_nco_total
+  end set by:   17 series (macro_real_gdp_growth, macro_nominal_gdp_growth, macro_real_dpi_growth, ...)
+  data continues after the window to 2026Q2: 18 series (bac_nii ...)
+
+WINDOW BY BLOCK (what each model block could use on its own):
+  macro only                             1990Q1 to 2025Q4 (144 quarters)
+  macro + FRED loss rates                1991Q1 to 2025Q4 (140 quarters)
+  macro + BAC income/PPNR                2008Q2 to 2025Q4 (71 quarters)
+  macro + BAC credit (NCO, allowance)    2011Q1 to 2025Q4 (60 quarters)
+
+WHAT IF A SERIES WERE DROPPED (largest gains in window length):
+  drop bac_nco_total              -> 2010Q1 to 2025Q4 (64 quarters) (+4q)
+
+SERIES COVERAGE:
+                  series  required  first   last  n_valid  gaps_inside
+   macro_real_gdp_growth      True 1976Q1 2025Q4      200            0
+macro_nominal_gdp_growth      True 1976Q1 2025Q4      200            0
+   macro_real_dpi_growth      True 1976Q1 2025Q4      200            0
+macro_nominal_dpi_growth      True 1976Q1 2025Q4      200            0
+      macro_unemployment      True 1976Q1 2025Q4      200            0
+     macro_cpi_inflation      True 1976Q1 2025Q4      200            0
+          macro_tbill_3m      True 1976Q1 2025Q4      200            0
+            macro_ust_5y      True 1976Q1 2025Q4      200            0
+           macro_ust_10y      True 1976Q1 2025Q4      200            0
+         macro_bbb_yield      True 1988Q4 2025Q4      149            0
+     macro_mortgage_rate      True 1976Q1 2025Q4      200            0
+        macro_prime_rate      True 1976Q1 2025Q4      200            0
+      macro_equity_index      True 1987Q1 2025Q4      156            0
+               macro_hpi      True 1976Q1 2025Q4      200            0
+         macro_cre_index      True 1976Q1 2025Q4      200            0
+               macro_vix      True 1990Q1 2025Q4      144            0
+        macro_bbb_spread      True 1988Q4 2025Q4      149            0
+                 bac_nii      True 2008Q2 2026Q2       73            0
+       bac_nonint_income      True 2008Q2 2026Q2       73            0
+      bac_nonint_expense      True 2008Q2 2026Q2       73            0
+          bac_net_income      True 2008Q2 2026Q2       73            0
+     bac_provision_loans      True 2008Q2 2026Q2       73            0
+  bac_provision_unfunded     False 2019Q1 2026Q2       30            0
+          bac_chargeoffs     False 2011Q1 2026Q2       62            0
+          bac_recoveries     False 2011Q1 2026Q2       62            0
+        bac_nco_reported     False 2013Q3 2026Q2       52            0
+           bac_allowance      True 2007Q4 2026Q2       71            4
+        bac_total_assets      True 2008Q4 2026Q2       70            1
+                bac_ppnr      True 2008Q2 2026Q2       73            0
+           bac_nco_total      True 2011Q1 2026Q2       62            0
+     bac_provision_total     False 2008Q2 2026Q2       73            0
+           fred_co_cards      True 1985Q1 2026Q2      166            0
+        fred_co_business      True 1985Q1 2026Q2      166            0
+             fred_co_cre      True 1991Q1 2026Q2      142            0
+        fred_co_mortgage      True 1991Q1 2026Q2      142            0
+  fred_co_other_consumer      True 1985Q1 2026Q2      166            0
+           fred_dq_cards      True 1991Q1 2026Q2      142            0
+        fred_dq_business      True 1987Q1 2026Q2      158            0
+             fred_dq_cre      True 1991Q1 2026Q2      142            0
+        fred_dq_mortgage      True 1991Q1 2026Q2      142            0
+             fred_bal_ci     False 1947Q1 2026Q3      319            0
+    fred_bal_real_estate     False 1947Q1 2026Q3      319            0
+          fred_bal_cards     False 2000Q3 2026Q3      105            0
+Constructed Adverse scenario = Baseline + 0.50 x (Severely Adverse - Baseline); price indices interpolated in logs. This is an assumption, not a Fed scenario.

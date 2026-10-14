@@ -1,0 +1,10 @@
+category,side,avg_balance_b,q4_interest_b,annualized_rate_pct
+Cash and interest-bearing balances,A,219.302,2.225,4.0583
+Reverse repo,A,321.189,3.763,4.6863
+Trading assets,A,407.9135,3.142,3.081
+Debt securities (AFS + HTM),A,915.612,6.609,2.8872
+Loans and leases,A,1241.313,17.705,5.7052
+Interest-bearing deposits,L,1481.9905,8.268,2.2316
+Repo,L,343.652,4.197,4.8852
+Other borrowed money and trading liabilities,L,576.409,5.711,3.9632
+Subordinated debt,L,27.6725,0.334,4.8279

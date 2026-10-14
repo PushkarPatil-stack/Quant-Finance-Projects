@@ -1,0 +1,40 @@
+scenario,segment,quarter,nco_rate_ann
+Constructed Adverse,cre,2026Q1,0.00229
+Constructed Adverse,cre,2026Q2,0.0016
+Constructed Adverse,cre,2026Q3,0.00173
+Constructed Adverse,cre,2026Q4,0.00229
+Constructed Adverse,cre,2027Q1,0.00303
+Constructed Adverse,cre,2027Q2,0.0038
+Constructed Adverse,cre,2027Q3,0.00457
+Constructed Adverse,cre,2027Q4,0.00517
+Constructed Adverse,cre,2028Q1,0.00519
+Constructed Adverse,cre,2028Q2,0.00452
+Constructed Adverse,cre,2028Q3,0.0037
+Constructed Adverse,cre,2028Q4,0.00286
+Constructed Adverse,cre,2029Q1,0.00234
+Supervisory Baseline,cre,2026Q1,0.00229
+Supervisory Baseline,cre,2026Q2,0.00127
+Supervisory Baseline,cre,2026Q3,0.00096
+Supervisory Baseline,cre,2026Q4,0.00086
+Supervisory Baseline,cre,2027Q1,0.00079
+Supervisory Baseline,cre,2027Q2,0.00076
+Supervisory Baseline,cre,2027Q3,0.00073
+Supervisory Baseline,cre,2027Q4,0.00069
+Supervisory Baseline,cre,2028Q1,0.00067
+Supervisory Baseline,cre,2028Q2,0.00067
+Supervisory Baseline,cre,2028Q3,0.00066
+Supervisory Baseline,cre,2028Q4,0.00066
+Supervisory Baseline,cre,2029Q1,0.00067
+Supervisory Severely Adverse,cre,2026Q1,0.00229
+Supervisory Severely Adverse,cre,2026Q2,0.002
+Supervisory Severely Adverse,cre,2026Q3,0.00311
+Supervisory Severely Adverse,cre,2026Q4,0.00611
+Supervisory Severely Adverse,cre,2027Q1,0.01162
+Supervisory Severely Adverse,cre,2027Q2,0.01901
+Supervisory Severely Adverse,cre,2027Q3,0.02862
+Supervisory Severely Adverse,cre,2027Q4,0.03868
+Supervisory Severely Adverse,cre,2028Q1,0.03991
+Supervisory Severely Adverse,cre,2028Q2,0.03056
+Supervisory Severely Adverse,cre,2028Q3,0.02059
+Supervisory Severely Adverse,cre,2028Q4,0.01233
+Supervisory Severely Adverse,cre,2029Q1,0.00819
